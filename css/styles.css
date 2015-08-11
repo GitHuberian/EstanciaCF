@@ -1,0 +1,96 @@
+html,body{
+	height: 100%;
+	font-family: 'Cabin', sans-serif;
+}
+header{
+	background-image:url("../imgs/tome-head-back.png");
+	height: 100%;
+	padding-top:1px;
+	background-repeat: no-repeat;
+}
+
+h1{
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+p{
+	font-family: 'Cabin', sans-serif;
+	
+}
+
+.put-shadow{
+	text-shadow: 0.7px 0.7px #999;
+}
+
+.change-font{
+	font-family: 'Lobster', cursive;
+}
+
+.text-white{
+	color:white;
+}
+
+.text-medium{
+	font-size:2em;
+}
+
+.text-small{
+	font-size:1.5em;
+}
+
+.text-mini{
+	font-size:0.5em;
+}
+
+.text-justify{
+	text-align:justify;
+}
+
+.text-center{
+	text-align:center;
+}
+
+.move-right{
+	float:right;
+}
+
+.move-center{
+	margin:0 auto;
+}
+
+.set-inline{
+	display:block;
+}
+
+
+.middle-pos{
+	width:50%;
+}
+
+.top-space{
+	margin-top:10%;
+}
+
+.section-padding{
+	padding-top:4%;
+}
+
+
+.section-size{
+	height:30%;
+	
+}
+
+.section-margin{
+	margin-bottom:100px;
+	margin-top:-20%;
+}
+
+
+.section-color{
+	background:#EAEAEA;
+}
+
+.main-color{
+	background:#4C4C4C;
+}

@@ -2,12 +2,6 @@ html,body{
 	height: 100%;
 	font-family: 'Cabin', sans-serif;
 }
-header{
-	background-image:url("../imgs/tome-head-back.png");
-	height: 100%;
-	padding-top:1px;
-	background-repeat: no-repeat;
-}
 
 h1{
 	font-family: 'Merriweather Sans', sans-serif;
@@ -17,6 +11,7 @@ p{
 	font-family: 'Cabin', sans-serif;
 	
 }
+
 
 .put-shadow{
 	text-shadow: 0.7px 0.7px #999;
@@ -62,7 +57,6 @@ p{
 	display:block;
 }
 
-
 .middle-pos{
 	width:50%;
 }
@@ -71,14 +65,69 @@ p{
 	margin-top:10%;
 }
 
+.main-section{
+	background-image:url("../imgs/tome-head-back.png");
+	height: 100%;
+	padding-top:1px;
+	background-repeat: no-repeat;
+}
+
+.main-menu {
+    float: right;
+}
+
+.main-menu-container {
+    font-size: 0;
+    line-height: 0;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.main-menu-option {
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    position: relative;
+    vertical-align: top;
+}
+
+.main-menu-link{
+    padding: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    transition: .3s;
+}
+
+.main-menu-link:hover{
+    border-top: 5px solid transparent;
+}
+.line:before {
+    height: 1.5em;
+    border-right: 1px solid #fff;
+    content: '';
+    position: absolute;
+    top: 13px;
+    right: 0;
+}
+
+a:hover {
+    color: #ff4842;
+}
+
 .section-padding{
 	padding-top:4%;
 }
 
 
-.section-size{
-	height:30%;
-	
+.section-size{  
+	min-height:30% 
 }
 
 .section-margin{
@@ -86,6 +135,9 @@ p{
 	margin-top:-20%;
 }
 
+.section-position{
+	position:relative;
+}
 
 .section-color{
 	background:#EAEAEA;

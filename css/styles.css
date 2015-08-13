@@ -68,6 +68,10 @@ header{
 	display:block;
 }
 
+.set-pos-left{
+	float:left;
+}
+
 .middle-pos{
 	width:50%;
 }
@@ -127,6 +131,10 @@ header{
     position: absolute;
     top: 13px;
     right: 0;
+}
+
+.border-section{
+    border-right: 1px solid #fff;
 }
 
 a:hover {
@@ -202,9 +210,24 @@ a:hover {
     width: 80px;
 }
 
+.icon-size{
+	height: 20px;
+    width: 20px;
+}
+
 .link-service{
     color: #ff4842!important;
     font-size: 1rem;
     font-weight: 700;
     text-decoration: underline!important;
 }
+
+.column-section{
+	min-width:250px;
+}
+
+.no-ref-decoration{
+	text-decoration:none;
+}
+
+

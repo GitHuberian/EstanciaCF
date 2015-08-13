@@ -1,0 +1,70 @@
+<!doctype html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+
+	<title>Entrega a Domicilio 2Me</title>
+	<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans|Muli|Cabin|Lobster' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/styles.css">
+	
+	<script>
+		function checkblanks(){
+			if(document.getElementById('user').value == "" ){
+				document.getElementById('user').style.borderColor = "red";
+				return false; 
+			}
+			if(document.getElementById('pass').value == "" ){
+				document.getElementById('pass').style.borderColor = "red";
+				return false; 
+			}
+		}
+	</script>
+</head>
+
+<body>
+	<header class="set-inline-bl main-color header-size">
+		<div class="set-inline-bl" >
+			<nav class="main-menu main-color">
+				<ul class="main-menu-container">
+					<li class="main-menu-option"><a href="index.html" class="main-menu-link set-inline-bl line">Home</a> </li>
+					<li class="main-menu-option"><a href="/Afiliados/" class="main-menu-link set-inline-bl line">Afiliados</a> </li>
+					<li class="main-menu-option"><a href="/Servicios/" class="main-menu-link set-inline-bl line">Servicios</a> </li>
+					<li class="main-menu-option"><a href="/FAQ/" class="main-menu-link set-inline-bl line">FAQ</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class="section-size section-color text-small section-padding set-inline-bl">
+		<div class="middle-pos move-center">
+			<form method="post" action="#" onsubmit="return checkblanks()">
+			<center>
+			<label>Usuario: 
+			<input type="text" id="user" name="user"></label><br>
+			<form method="post" action="#">
+			<label>Password: 
+			<input type="Password" id="pass" name="pass"></label><br>
+			<input type="submit" value="Sign in" class="btn-red">
+			</center>
+			</form>
+		</div>
+	</section>
+	<footer class=" section-size top-space main-color set-inline-bl">
+		<div class="middle-pos move-center section-padding">
+			<div class="column-section text-white border-section set-pos-left">
+			<p>Síguenos.</p>
+			<ul class="set-inline-bl top-space">
+				<li class=" set-inline-bl" >
+				<img src="./imgs/fb-circ.png" class="icon-size" >
+				<a target="_blank" href="https://www.facebook.com/" class="text-white no-ref-decoration">/2Me</a>
+				</li>
+				<li class=" set-inline-bl">
+				<img src="./imgs/twit-circ.png" class="icon-size">
+				<a target="_blank" href="https://www.twitter.com/" class="text-white no-ref-decoration" >@2Me_Delivery</a>
+				</li>
+			</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

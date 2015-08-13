@@ -20,6 +20,11 @@ header{
 	z-index:100;
 }
 
+footer {
+    position: absolute;
+	width:100%;
+}
+
 .put-shadow{
 	text-shadow: 0.7px 0.7px #999;
 }
@@ -70,6 +75,10 @@ header{
 
 .set-pos-left{
 	float:left;
+}
+
+.set-pos-bottom{
+	bottom:0;
 }
 
 .middle-pos{
@@ -127,7 +136,7 @@ header{
 .line:before {
     height: 1.5em;
     border-right: 1px solid #fff;
-    content: '';
+    content:'';
     position: absolute;
     top: 13px;
     right: 0;
@@ -147,6 +156,10 @@ a:hover {
 
 .section-size{  
 	min-height:32% 
+}
+
+.header-size{  
+	min-height:60px 
 }
 
 .section-color{
